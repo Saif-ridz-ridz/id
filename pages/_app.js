@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import configureStore from '../config/configureStore';
 import { Provider } from 'react-redux';
 import ScrollToTop from '../utils/ScrollToTop';
-import './assets/base.scss';
+import '../assets/base.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faFacebook, faTwitter, faVuejs, faReact, faHtml5, faGoogle, faInstagram, faPinterest, faYoutube, faDiscord, faSlack, faDribbble, faGithub } from '@fortawesome/free-brands-svg-icons';
