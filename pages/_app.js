@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import configureStore from '../config/configureStore';
 import { Provider } from 'react-redux';
-import ScrollToTop from './utils/ScrollToTop';
+import ScrollToTop from '../utils/ScrollToTop';
 import './assets/base.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
