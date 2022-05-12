@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import ScrollToTop from '../utils/ScrollToTop';
 import '../assets/base.scss';
 import MuiTheme from '../theme';
+import { MinimalLayout } from '../layout-blueprints';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faFacebook, faTwitter, faVuejs, faReact, faHtml5, faGoogle, faInstagram, faPinterest, faYoutube, faDiscord, faSlack, faDribbble, faGithub } from '@fortawesome/free-brands-svg-icons';
