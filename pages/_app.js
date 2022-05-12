@@ -1,6 +1,7 @@
 import configureStore from '../config/configureStore';
 import { Provider } from 'react-redux';
 import { ThemeProvider } from '@mui/material/styles';
+import { AnimatePresence, motion } from 'framer-motion';
 import ScrollToTop from '../utils/ScrollToTop';
 import '../assets/base.scss';
 import MuiTheme from '../theme';
